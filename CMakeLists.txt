@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 
 
-project(acp-generator)
+project(acp-gen)
 
-add_executable(acp-generator src/ACPFile.cpp src/ACPChunk.cpp src/main.cpp)
+add_executable(acp-gen src/ACPFile.cpp src/ACPChunk.cpp src/main.cpp)
 
-target_link_libraries(acp-generator -lOgreMain -lpthread -lfreeimage)
+target_link_libraries(acp-gen -lOgreMain -lpthread -lfreeimage)
